@@ -17,6 +17,6 @@ const Post = db.sequelize.define('tb_pessoa', {
         type: db.Sequelize.TEXT
     },
 });
-//Post.sync({ force: true });
+Post.sync({ force: true });
 module.exports = Post;
 
