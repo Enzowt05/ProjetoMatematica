@@ -1,0 +1,430 @@
+{
+    "quiz": {
+      "category": [
+        {
+          "@name": "Fácil",
+          "question": [
+            {
+              "text": "83 + 270=?",
+              "answers": [
+                { "correto": true, "alternativa": "353" },
+                { "correto": false, "alternativa": "362" },
+                { "correto": false, "alternativa": "232" },
+                { "correto": false, "alternativa": "432" }
+              ]
+            },
+            {
+              "text": "56 – 15=?",
+              "answers": [
+                { "correto": true, "alternativa": "41" },
+                { "correto": false, "alternativa": "32" },
+                { "correto": false, "alternativa": "35" },
+                { "correto": false, "alternativa": "38" }
+              ]
+            },
+            {
+              "text": "15 x 3=?",
+              "answers": [
+                { "correto": true, "alternativa": "45" },
+                { "correto": false, "alternativa": "56" },
+                { "correto": false, "alternativa": "42" },
+                { "correto": false, "alternativa": "33" }
+              ]
+            },
+            {
+              "text": "35 ÷ 5=?",
+              "answers": [
+                { "correto": true, "alternativa": "7" },
+                { "correto": false, "alternativa": "15" },
+                { "correto": false, "alternativa": "8" },
+                { "correto": false, "alternativa": "9" }
+              ]
+            },
+            {
+              "text": "59 + 57=?",
+              "answers": [
+                { "correto": false, "alternativa": "166" },
+                { "correto": false, "alternativa": "155" },
+                { "correto": false, "alternativa": "156" },
+                { "correto": true, "alternativa": "116" }
+              ]
+            },
+            {
+              "text": "700 – 106=?",
+              "answers": [
+                { "correto": true, "alternativa": "594" },
+                { "correto": false, "alternativa": "604" },
+                { "correto": false, "alternativa": "504" },
+                { "correto": false, "alternativa": "514" }
+              ]
+            },
+            {
+              "text": "14 x 9=?",
+              "answers": [
+                { "correto": true, "alternativa": "126" },
+                { "correto": false, "alternativa": "124" },
+                { "correto": false, "alternativa": "123" },
+                { "correto": false, "alternativa": "104" }
+              ]
+            },
+            {
+              "text": "62 ÷ 2=?",
+              "answers": [
+                { "correto": true, "alternativa": "31" },
+                { "correto": false, "alternativa": "30" },
+                { "correto": false, "alternativa": "32" },
+                { "correto": false, "alternativa": "16" }
+              ]
+            },
+            {
+              "text": "275 + 325=?",
+              "answers": [
+                { "correto": true, "alternativa": "600" },
+                { "correto": false, "alternativa": "575" },
+                { "correto": false, "alternativa":"400" },
+                { "correto": false, "alternativa": "585" }
+              ]
+            },
+            {
+              "text": "1000 – 750=?",
+              "answers": [
+                { "correto": true, "alternativa": "250" },
+                { "correto": false, "alternativa": "150" },
+                { "correto": false, "alternativa": "350" },
+                { "correto": false, "alternativa": "150" }
+              ]
+            },
+            {
+              "text": "70 x 4=?",
+              "answers": [
+                { "correto": true, "alternativa": "280" },
+                { "correto": false, "alternativa": "270" },
+                { "correto": false, "alternativa": "277" },
+                { "correto": false, "alternativa": "278" }
+              ]
+            },
+            {
+              "text": "462 ÷ 2=?",
+              "answers": [
+                { "correto": true, "alternativa": "231" },
+                { "correto": false, "alternativa": "232" },
+                { "correto": false, "alternativa": "216" },
+                { "correto": false, "alternativa": "226" }
+              ]
+            },
+            {
+              "text": "810 – 150=?",
+              "answers": [
+                { "correto": true, "alternativa": "660" },
+                { "correto": false, "alternativa": "650" },
+                { "correto": false, "alternativa": "680" },
+                { "correto": false, "alternativa": "550" }
+              ]
+            },
+            {
+              "text": "17 x 4=?",
+              "answers": [
+                { "correto": true, "alternativa": "68" },
+                { "correto": false, "alternativa": "76" },
+                { "correto": false, "alternativa": "52" },
+                { "correto": false, "alternativa": "75" }
+              ]
+            },
+            {
+              "text": "208 ÷ 4=?",
+              "answers": [
+                { "correto": true, "alternativa": "52" },
+                { "correto": false, "alternativa": "104" },
+                { "correto": false, "alternativa": "53" },
+                { "correto": false, "alternativa": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "@name": "Médio",
+          "question": [
+            {
+              "text": "√256=?",
+              "answers": [
+                { "correto": true, "alternativa": "16" },
+                { "correto": false, "alternativa": "15" },
+                { "correto": false, "alternativa": "25" },
+                { "correto": false, "alternativa": "12" }
+              ]
+            },
+            {
+              "text": "√144=?",
+              "answers": [
+                { "correto": true, "alternativa": "12" },
+                { "correto": false, "alternativa": "14" },
+                { "correto": false, "alternativa": "7" },
+                { "correto": false, "alternativa": "11" }
+              ]
+            },
+            {
+              "text": "√49=?",
+              "answers": [
+                { "correto": true, "alternativa": "7" },
+                { "correto": false, "alternativa": "4" },
+                { "correto": false, "alternativa": "8" },
+                { "correto": false, "alternativa": "6" }
+              ]
+            },
+            {
+              "text": "√81=?",
+              "answers": [
+                { "correto": true, "alternativa": "9" },
+                { "correto": false, "alternativa": "8" },
+                { "correto": false, "alternativa": "6" },
+                { "correto": false, "alternativa": "7" }
+              ]
+            },
+            {
+              "text": "√36=?",
+              "answers": [
+                { "correto": true, "alternativa": "6" },
+                { "correto": false, "alternativa": "3" },
+                { "correto": false, "alternativa": "4" },
+                { "correto": false, "alternativa": "8" }
+              ]
+            },
+            {
+              "text": "√49=?",
+              "answers": [
+                { "correto": true, "alternativa": "7" },
+                { "correto": false, "alternativa": "8" },
+                { "correto": false, "alternativa": "9" },
+                { "correto": false, "alternativa": "6" }
+              ]
+            },
+            {
+              "text": "√169=?",
+              "answers": [
+                { "correto": true, "alternativa": "13" },
+                { "correto": false, "alternativa": "16" },
+                { "correto": false, "alternativa": "9" },
+                { "correto": false, "alternativa": "19" }
+              ]
+            },
+            {
+              "text": "√225=?",
+              "answers": [
+                { "correto": true, "alternativa": "15" },
+                { "correto": false, "alternativa": "12" },
+                { "correto": false, "alternativa": "25" },
+                { "correto": false, "alternativa": "5" }
+              ]
+            },
+            {
+              "text": "√121=?",
+              "answers": [
+                { "correto": true, "alternativa": "11" },
+                { "correto": false, "alternativa": "12" },
+                { "correto": false, "alternativa": "10" },
+                { "correto": false, "alternativa": "9" }
+              ]
+            },
+            {
+              "text": "√64=?",
+              "answers": [
+                { "correto": true, "alternativa": "8" },
+                { "correto": false, "alternativa": "4" },
+                { "correto": false, "alternativa": "6" },
+                { "correto": false, "alternativa": "9" }
+              ]
+            },
+            {
+              "text": "√7²x4=?",
+              "answers": [
+                { "correto": false, "alternativa": "6.400" },
+                { "correto": false, "alternativa": "24.000" },
+                { "correto": true, "alternativa": "2.400" },
+                { "correto": false, "alternativa": "8.400" }
+              ]
+            },
+            {
+              "text": "52³+12²=?",
+              "answers": [
+                { "correto": false, "alternativa": "140.752" },
+                { "correto": false, "alternativa": "520.652" },
+                { "correto": false, "alternativa": "120.656" },
+                { "correto": true, "alternativa": "502.656" }
+              ]
+            },
+            {
+              "text": "12³+5=?",
+              "answers": [
+                { "correto": true, "alternativa": "1.733" },
+                { "correto": false, "alternativa": "1.535" },
+                { "correto": false, "alternativa": "1.735" },
+                { "correto": false, "alternativa": "1.728" }
+              ]
+            },
+            {
+              "text": "7²+57=?",
+              "answers": [
+                { "correto": true, "alternativa": "106" },
+                { "correto": false, "alternativa": "157" },
+                { "correto": false, "alternativa": "117" },
+                { "correto": false, "alternativa": "116" }
+              ]
+            },
+            {
+              "text": "9²+33=?",
+              "answers": [
+                { "correto": true, "alternativa": "114" },
+                { "correto": false, "alternativa": "123" },
+                { "correto": false, "alternativa": "121" },
+                { "correto": false, "alternativa": "112" }
+              ]
+            }
+          ]
+        },
+        {
+          "@name": "Difícil",
+          "question": [
+            {
+              "text": "3x + 5 = 2",
+              "answers": [
+                { "correto": true, "alternativa": "-1" },
+                { "correto": false, "alternativa": "2" },
+                { "correto": false, "alternativa": "4" },
+                { "correto": false, "alternativa": "-2" }
+              ]
+            },
+            {
+              "text": "2x^2 – 7x +3 =0",
+              "answers": [
+                { "correto": true, "alternativa": "3" },
+                { "correto": true, "alternativa": "1/2" },
+                { "correto": false, "alternativa": "3/2" },
+                { "correto": false, "alternativa": "-1/2" }
+              ]
+            },
+            {
+              "text": "1/2x + 3 = 7",
+              "answers": [
+                { "correto": true, "alternativa": "8" },
+                { "correto": false, "alternativa": "4" },
+                { "correto": false, "alternativa": "7" },
+                { "correto": false, "alternativa": "3" }
+              ]
+            },
+            {
+              "text": "4y - 10 = 2",
+              "answers": [
+                { "correto": true, "alternativa": "3" },
+                { "correto": false, "alternativa": "6" },
+                { "correto": true, "alternativa": "4" },
+                { "correto": true, "alternativa": "2" }
+              ]
+            },
+            {
+              "text": "3/4x - 2 = 10",
+              "answers": [
+                { "correto": true, "alternativa": "16" },
+                { "correto": false, "alternativa": "8" },
+                { "correto": false, "alternativa": "10" },
+                { "correto": false, "alternativa": "5" }
+              ]
+            },
+            {
+              "text": "2x + 4 = 10",
+              "answers": [
+                { "correto": true, "alternativa": "3" },
+                { "correto": false, "alternativa": "-3" },
+                { "correto": false, "alternativa": "6" },
+                { "correto": false, "alternativa": "4" }
+              ]
+            },
+            {
+              "text": "3x^2 – 6x = 0",
+              "answers": [
+                { "correto": true, "alternativa": "0" },
+                { "correto": true, "alternativa": "2" },
+                { "correto": false, "alternativa": "-1" },
+                { "correto": false, "alternativa": "-2" }
+              ]
+            },
+            {
+              "text": "8x/2 + 6 = 12",
+              "answers": [
+                { "correto": true, "alternativa": "3/2" },
+                { "correto": false, "alternativa": "2/3" },
+                { "correto": false, "alternativa": "6/8" },
+                { "correto": false, "alternativa": "-1/2" }
+                
+              ]
+            },
+            {
+              "text": "5y + 8 = 23",
+              "answers": [
+                { "correto": true, "alternativa": "3" },
+                { "correto": false, "alternativa": "8" },
+                { "correto": false, "alternativa": "6" },
+                { "correto": false, "alternativa": "-8" }
+                
+              ]
+            },
+            {
+              "text": "2x - 3 = 7",
+              "answers": [
+                { "correto": true, "alternativa": "5" },
+                { "correto": false, "alternativa": "7" },
+                { "correto": false, "alternativa": "4" },
+                { "correto": false, "alternativa": "3" }
+              ]
+            },
+            {
+              "text": "4y^2 - 9 = 0",
+              "answers": [
+                { "correto": true, "alternativa": "±3/2" },
+                { "correto": true, "alternativa": "±9" },
+                { "correto": false, "alternativa": "±6/2" },
+                { "correto": false, "alternativa": "0" }
+              ]
+            },
+            {
+              "text": "1x/2 + 4 = 10 ",
+              "answers": [
+                { "correto": true, "alternativa": "12" },
+                { "correto": false, "alternativa": "-12" },
+                { "correto": false, "alternativa": "6" },
+                { "correto": false, "alternativa": "8" }
+                
+              ]
+            },
+            {
+              "text": "3x - 2= 16",
+              "answers": [
+                { "correto": true, "alternativa": "6" },
+                { "correto": false, "alternativa": "3" },
+                { "correto": false, "alternativa": "2" },
+                { "correto": false, "alternativa": "8" }
+              ]
+            },
+            {
+              "text": "2y + 5 = 13",
+              "answers": [
+                { "correto": true, "alternativa": "4" },
+                { "correto": false, "alternativa": "2" },
+                { "correto": false, "alternativa": "5" },
+                { "correto": false, "alternativa": "3" }
+              ]
+            },
+            {
+              "text": "4x^2 - 12 = 0",
+              "answers": [
+                { "correto": true, "alternativa": "±√3" },
+                { "correto": false, "alternativa": "±√4" },
+                { "correto": false, "alternativa": "±√2" },
+                { "correto": false, "alternativa": "±√8" }
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

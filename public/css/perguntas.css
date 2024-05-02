@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oxanium:wght@600;800&family=Volkhov:ital,wght@0,700;1,400&display=swap');
+**{
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden; 
+    font-family: 'Volkhov', serif;
+  }
+
+.nivel {
+text-align: center;
+font-size: 70px;
+color: #3124BF;
+}
+
+.questao {
+text-align: center;
+font-size: 45px;
+}
+
+.divbtn{
+margin:  5rem;
+text-align: center;
+margin-top: 2%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+}
+
+.btn {
+width: 22%;
+height: 80px;
+background: none;
+font-size: 40px;
+margin-top: 1%;
+background-color: #3124BF;
+color: white;
+border-radius: 225px;
+font-family: 'Volkhov', serif;
+}
+
+/*Timer*/
+
+.timer{
+  display: flex;
+  font-size: 55px;
+  font-weight: bold;
+  color: #333;
+}
+
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #172953;
+  min-width: 90px;
+}
+
+.separator{
+  padding: 0 10px;
+  color: #535763;
+}
+
+#miliseconds{
+  font-size: 30px;
+  color: #525763;
+}

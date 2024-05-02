@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<quiz>
+  <category name="Fácil">
+    <question>
+      <text>83 + 270 = ?</text>
+      <answers>
+        <answer correct="true">353</answer>
+        <answer correct="false">362</answer>
+        <answer correct="false">232</answer>
+        <answer correct="false">432</answer>
+      </answers>
+    </question>
+    <question>
+      <text>56 – 15=?</text>
+      <answers>
+        <answer correct="true">41</answer>
+        <answer correct="false">32</answer>
+        <answer correct="false">35</answer>
+        <answer correct="false">38</answer>
+      </answers>
+    </question>
+    <question>
+      <text>15 x 3=?</text>
+      <answers>
+        <answer correct="true">45</answer>
+        <answer correct="false">56</answer>
+        <answer correct="false">42</answer>
+        <answer correct="false">33</answer>
+      </answers>
+    </question>
+    <question>
+      <text>35 ÷ 5=?</text>
+      <answers>
+        <answer correct="true">7</answer>
+        <answer correct="false">15</answer>
+        <answer correct="false">8</answer>
+        <answer correct="false">9</answer>
+      </answers>
+    </question>
+    <question>
+      <text>59 + 57=?</text>
+      <answers>
+        <answer correct="false">166</answer>
+        <answer correct="false">155</answer>
+        <answer correct="false">156</answer>
+        <answer correct="true">116</answer>
+      </answers>
+    </question>
+    <question>
+      <text>700 – 106=?</text>
+      <answers>
+        <answer correct="true">594</answer>
+        <answer correct="false">604</answer>
+        <answer correct="false">504</answer>
+        <answer correct="false">514</answer>
+      </answers>
+    </question>
+    <question>
+      <text>14 x 9=?</text>
+      <answers>
+        <answer correct="true">126</answer>
+        <answer correct="false">124</answer>
+        <answer correct="false">123</answer>
+        <answer correct="false">104</answer>
+      </answers>
+    </question>
+    <question>
+      <text>62 ÷ 2=?</text>
+      <answers>
+        <answer correct="true">31</answer>
+        <answer correct="false">30</answer>
+        <answer correct="false">32</answer>
+        <answer correct="false">16</answer>
+      </answers>
+    </question>
+    <question>
+      <text>275 + 325=?</text>
+      <answers>
+        <answer correct="true">600</answer>
+        <answer correct="false">575</answer>
+        <answer correct="false">400</answer>
+        <answer correct="false">585</answer>
+      </answers>
+    </question>
+    <question>
+      <text>1000 – 750=?</text>
+      <answers>
+        <answer correct="true">250</answer>
+        <answer correct="false">150</answer>
+        <answer correct="false">350</answer>
+        <answer correct="false">150</answer>
+      </answers>
+    </question>
+    <question>
+      <text>70 x 4=?</text>
+      <answers>
+        <answer correct="true">280</answer>
+        <answer correct="false">270</answer>
+        <answer correct="false">277</answer>
+        <answer correct="false">278</answer>
+      </answers>
+    </question>
+    <question>
+      <text>462 ÷ 2=?</text>
+      <answers>
+        <answer correct="true">231</answer>
+        <answer correct="false">232</answer>
+        <answer correct="false">216</answer>
+        <answer correct="false">226</answer>
+      </answers>
+    </question>
+    <question>
+      <text>810 – 150=?</text>
+      <answers>
+        <answer correct="true">660</answer>
+        <answer correct="false">650</answer>
+        <answer correct="false">680</answer>
+        <answer correct="false">550</answer>
+      </answers>
+    </question>
+    <question>
+      <text>17 x 4=?</text>
+      <answers>
+        <answer correct="true">68</answer>
+        <answer correct="false">76</answer>
+        <answer correct="false">52</answer>
+        <answer correct="false">75</answer>
+      </answers>
+    </question>
+    <question>
+      <text>208 ÷ 4=?</text>
+      <answers>
+        <answer correct="true">52</answer>
+        <answer correct="false">104</answer>
+        <answer correct="false">53</answer>
+        <answer correct="false">22</answer>
+      </answers>
+    </question>
+  </category>
+  <category name="Médio">
+    <question>
+      <text>√256=?</text>
+      <answers>
+        <answer correct="true">16</answer>
+        <answer correct="false">15</answer>
+        <answer correct="false">25</answer>
+        <answer correct="false">12</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√144=?</text>
+      <answers>
+        <answer correct="true">12</answer>
+        <answer correct="false">14</answer>
+        <answer correct="false">7</answer>
+        <answer correct="false">11</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√49=?</text>
+      <answers>
+        <answer correct="true">7</answer>
+        <answer correct="false">4</answer>
+        <answer correct="false">8</answer>
+        <answer correct="false">6</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√81=?</text>
+      <answers>
+        <answer correct="true">9</answer>
+        <answer correct="false">8</answer>
+        <answer correct="false">6</answer>
+        <answer correct="false">7</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√36=?</text>
+      <answers>
+        <answer correct="true">6</answer>
+        <answer correct="false">3</answer>
+        <answer correct="false">4</answer>
+        <answer correct="false">8</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√49=?</text>
+      <answers>
+        <answer correct="true">7</answer>
+        <answer correct="false">8</answer>
+        <answer correct="false">9</answer>
+        <answer correct="false">6</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√169=?</text>
+      <answers>
+        <answer correct="true">13</answer>
+       <answer correct="false">16</answer>
+        <answer correct="false">9</answer>
+        <answer correct="false">19</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√225=?</text>
+      <answers>
+        <answer correct="true">15</answer>
+        <answer correct="false">12</answer>
+        <answer correct="false">25</answer>
+        <answer correct="false">5</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√121=?</text>
+      <answers>
+        <answer correct="true">11</answer>
+        <answer correct="false">12</answer>
+        <answer correct="false">10</answer>
+        <answer correct="false">9</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√64=?</text>
+      <answers>
+        <answer correct="true">8</answer>
+        <answer correct="false">4</answer>
+        <answer correct="false">6</answer>
+        <answer correct="false">9</answer>
+      </answers>
+    </question>
+    <question>
+      <text>√7²x4=?</text>
+      <answers>
+        <answer correct="false">6.400</answer>
+        <answer correct="false">24.000</answer>
+        <answer correct="true">2.400</answer>
+        <answer correct="false">8.400</answer>
+      </answers>
+    </question>
+    <question>
+      <text>52³+12²=?</text>
+      <answers>
+        <answer correct="false">140.752</answer>
+        <answer correct="false">520.652</answer>
+        <answer correct="false">120.656</answer>
+        <answer correct="true">502.656</answer>
+      </answers>
+    </question>
+    <question>
+      <text>12³+5=?</text>
+      <answers>
+        <answer correct="true">1.733</answer>
+        <answer correct="false">1.535</answer>
+        <answer correct="false">1.735</answer>
+        <answer correct="false">1.728</answer>
+      </answers>
+    </question>
+    <question>
+      <text>7²+57=?</text>
+      <answers>
+        <answer correct="true">106</answer>
+        <answer correct="false">157</answer>
+        <answer correct="false">117</answer>
+        <answer correct="false">116</answer>
+      </answers>
+    </question>
+    <question>
+      <text>9²+33=?</text>
+      <answers>
+        <answer correct="true">114</answer>
+        <answer correct="false">123</answer>
+        <answer correct="false">121</answer>
+        <answer correct="false">112</answer>
+      </answers>
+    </question>
+  </category>
+</quiz>

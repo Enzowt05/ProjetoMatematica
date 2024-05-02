@@ -1,0 +1,58 @@
+
+<div class="timer">
+    <div class="time" id="minutes">0{{minutes}}</div>
+    <input type="hidden" name="debMin" value="0">
+    <div class="separator">:</div>
+    <div class="time" id="seconds">0{{seconds}}</div>
+    <input type="text" name="debSec" value="0">
+  </div>
+</div>
+<script>
+  const buttons = document.querySelectorAll("button");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function() {
+      if (this.value=='true'){
+        window.location.replace('/correto');
+      }
+      else {
+        window.location.replace('/errado');
+      }
+    });
+  });
+
+  /*Timer*/
+  document.addEventListener("DOMContentLoaded", function() {
+    let tempo;
+    let timer = document.getElementById('timer');
+    let secondsEl = document.getElementById('seconds');
+    let minutesEl = document.getElementById('minutes');
+    let btn_timer = document.getElementById('btn_timer');
+    let debMinInput = document.querySelector('input[name="debMin"]');
+    let debSecInput = document.querySelector('input[name="debSec"]');
+
+    let minutes = parseInt(debMinInput.value);
+    let seconds = parseInt(debSecInput.value);
+
+    (function (){
+      tempo = setInterval(()=>{
+        seconds++;
+        if (seconds === 60){
+          minutes++;
+          seconds = 0;
+        }
+        
+        secondsEl.innerHTML = formatTime(seconds);
+        minutesEl.innerHTML = formatTime(minutes);
+        debMinInput.value = minutes;
+        debSecInput.value = seconds; // Update hidden input value
+        console.log(seconds);
+      }, 1000)
+
+    })();
+
+    function formatTime(time){
+      return time < 10? `0${time}` : time;
+    }
+  });
+</script>

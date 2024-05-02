@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oxanium:wght@600;800&family=Volkhov:ital,wght@0,700;1,400&display=swap');
+**{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Volkhov', serif;
+  overflow-y: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #323536;
+  font-size: 18px;
+}
+
+td {
+  border: 1px solid #323536;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  border: 1px solid #323536;
+  padding: 8px;
+}
+
+th {
+  background-color: #3124BF;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #D9D9D9;
+}
+
+tr:hover {
+  color: #f8f8f8;
+  background-color: #4f3fff;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.titulo{
+  font-size: 40px;
+  color: #323536;
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+}
+
+button {
+  width:150px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #3124BF;
+  color: white;
+  border-radius: 20px;
+  font-family: 'Volkhov', serif;
+  margin-left: 10px;
+  margin-top: 10px;
+  }

@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="css/perguntas.css" />
+<p class="nivel">{{questao}}/15</p>
+<p class="questao">{{question}}</p>
+<form action="/pergunta" class="divbtn" method="post">
+  {{#each answers}}
+    <button
+      type="button"
+      value="{{correto}}"
+      class="btn"
+    >{{alternativa}}</button>
+  {{/each}}
+</form>
+
+<div class="timer">
+    <div class="time" id="minutes">0{{minutes}}</div>
+    <div class="separator">:</div>
+    <div class="time" id="seconds">0{{seconds}}</div>
+  </div>
+</div>
+
+<script>
+  const buttons = document.querySelectorAll("button");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function() {
+      if (this.value=='true'){
+        window.location.replace('/correto');
+      }
+      else {
+        window.location.replace('/errado');
+      }
+    });
+  });
+
+  /*Timer*/
+  document.addEventListener("DOMContentLoaded", function() {
+    let tempo;
+    let timer = document.getElementById('timer');
+    let secondsEl = document.getElementById('seconds');
+    let minutesEl = document.getElementById('minutes');
+    let btn_timer = document.getElementById('btn_timer');
+
+    let minutes = parseInt(minutesEl.innerHTML);
+    let seconds = parseInt(secondsEl.innerHTML);
+
+    (function (){
+      tempo = setInterval(()=>{
+        seconds++;
+        if (seconds === 60){
+          minutes++;
+          seconds = 0;
+        }
+        
+        secondsEl.innerHTML = formatTime(seconds);
+        minutesEl.innerHTML = formatTime(minutes);
+        console.log(seconds);
+      }, 1000)
+
+    })();
+
+    function formatTime(time){
+      return time < 10? `0${time}` : time;
+    }
+  });
+</script>

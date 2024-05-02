@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oxanium:wght@600;800&family=Volkhov:ital,wght@0,700;1,400&display=swap');
+*{
+    font-family: 'Volkhov', serif;
+}
+body{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.regras-container{
+  margin: 10px;
+  padding-bottom: 70px;  
+}
+
+h1{
+    padding: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #323536;
+}
+
+.regras{
+    padding-left: 80px;
+}
+
+.regras-container li{
+    padding: 20px;
+    padding-bottom: 5px;
+    color: #3124BF;
+   font-size: 27px;
+}
+
+.botao-voltar{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 100px;
+    height: 60px;
+    background-color: #3124BF;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+}
+
+.botao-voltar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.regras-container img{
+    float: right;
+    width: 170px;
+    height: 130px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+

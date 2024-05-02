@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="css/ranking.css" />
+
+<p class="titulo">Ranking</p>
+<table>
+  <thead>
+    <tr>
+      <th>Jogadores</th>
+      <th>Turma</th>
+      <th>Nível</th>
+      <th>Tempo</th>
+      <th>Pontos</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each posts}}
+      <tr>
+        <td>{{add 1 @index}}. {{tb_pessoa_nome}}</td>
+        <td>{{tb_pessoa_turma}}</td>
+        <td>{{tb_pessoa_nivel}}</td>
+        <td>{{tb_pessoa_tempo}}</td>
+        <td>{{tb_pessoa_pontos}}/15</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+<button> <a href="/"> Voltar </a></button>

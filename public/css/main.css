@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oxanium:wght@600;800&family=Volkhov:ital,wght@0,700;1,400&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.credito {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.wal {
+  width: 80%;
+  color: #3124BF;
+  position: absolute;
+  top: 557px;
+  left: 373px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.kau {
+  width: 80%;
+  color: #3124BF;
+  position: absolute;
+  top: 384px;
+  left: 289px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.mat {
+  width: 80%;
+  color: #3124BF;
+  position: absolute;
+  top: 294px;
+  left: 248px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.enz {
+  width: 80%;
+  color: #3124BF;
+  position: absolute;
+  top: 204px;
+  left: 553px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.rap {
+  width: 80%;
+  color: #3124BF;
+  position: absolute;
+  top: 464px;
+  left: 358px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.credito2 {
+  width: 480px;
+  height: 149px;
+  background:6 url("../images/v142_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  left: 480px;
+  overflow: hidden;
+}
+.trabalho {
+  width: 480px;
+  color: rgba(154,163,165,1);
+  position: absolute;
+  top: 118px;
+  left: 0px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.credito3 {
+  width: 397px;
+  color: #3124BF;
+  position: absolute;
+  top: 0px;
+  left: 42px;
+  font-family: Volkhov;
+  font-weight: Bold;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+
+/*Botão*/
+
+.botao-voltar{
+   top: 700px;
+   position: absolute;
+    width: 200px;
+    height: 70px;
+    background-color: #3124BF;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 635px;
+    font-size:35px;
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+}
+
+.botao-voltar a{
+    color: white;
+    text-decoration: none;
+    
+}

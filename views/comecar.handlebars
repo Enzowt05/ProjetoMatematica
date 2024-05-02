@@ -1,0 +1,54 @@
+<!-- CSS -->
+<link rel="stylesheet" href="css/comecar.css" />
+<div class="container">
+  <h1 class="nivel">Cadastro</h1>
+  <section class="alinhar">
+    <form action="/menu" method="post" onsubmit="return validateForm()">
+        <p class="titulo">Insira seu Nome</p>
+        <input type="text" class="campo" placeholder="Jogador" name="nome" />
+        <p class="titulo">Insira sua Turma</p>
+        <select name="turma" class="campo select" placeholder="Turma">
+        <option value="" data-default disabled selected>Turma</option>
+        <option value="1ds">1ds</option>
+        <option value="2ds">2ds</option>
+        <option value="3ds">3ds</option>
+        <option value="1adm">1adm</option>
+        <option value="2adm">2adm</option>
+        <option value="3adm">3adm</option>
+        </select>
+        <div class="divbtn">
+        <button class="btn">
+            <a class="abtn">Começar</a>
+        </button>
+        <p id="error-message"></p>
+    </form>
+    </div>
+  </section>
+  <img src="src/mamacobanana.png" alt="" class="macacoandante" />
+</div>
+
+<script>
+    function validateForm() {
+  // Selecione os campos de input e a mensagem de erro
+  const nomeInput = document.querySelector('input[name="nome"]');
+  const turmaSelect = document.querySelector('select[name="turma"]');
+  const errorMessage = document.querySelector('#error-message');
+
+  if (nomeInput.value === '') {
+    nomeInput.classList.add('vermelho');
+    errorMessage.textContent = 'Por favor, insira seu nome.';
+    return false;
+  } else {
+    nomeInput.classList.remove('vermelho');
+  }
+
+  if (turmaSelect.value === '') {
+    turmaSelect.classList.add('vermelho');
+    errorMessage.textContent = 'Por favor, selecione sua turma.';
+    return false; 
+  } else {
+    turmaSelect.classList.remove('vermelho');
+  }
+  return true;
+}
+</script>
