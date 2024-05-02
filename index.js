@@ -107,7 +107,6 @@ app.get('/timer', function (req, res) {
 
 app.get('/pergunta', function (req, res) {
     const { readFile } = require('fs');
-    console.log(timer);
     readFile('questions.json', 'utf8', (err, jsonString) => {
         const jsonObject = JSON.parse(jsonString);
         if (req.session.nivel == "Fácil") {
